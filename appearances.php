@@ -58,6 +58,8 @@ function register_podcast_post_type() {
 			),
 		)
 	);
+
+	\register_taxonomy_for_object_type( 'post_tag', 'podcast' );
 }
 add_action( 'init', __NAMESPACE__ . '\register_podcast_post_type' );
 
@@ -105,6 +107,8 @@ function register_publication_post_type() {
 			),
 		)
 	);
+
+	\register_taxonomy_for_object_type( 'post_tag', 'publication' );
 }
 add_action( 'init', __NAMESPACE__ . '\register_publication_post_type' );
 
@@ -152,5 +156,7 @@ function register_speaking_post_type() {
 			),
 		)
 	);
+
+	\register_taxonomy_for_object_type( 'post_tag', 'speaking' );
 }
 add_action( 'init', __NAMESPACE__ . '\register_Speaking_post_type' );
