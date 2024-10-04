@@ -1,6 +1,6 @@
 {
     "name": "pfefferle/wordpress-appearances",
-    "description": "1st rule of RSS Club is “Don't Talk About RSS Club”.",
+    "description": "Custom-Post-Types for speakings, podcasts and articles.",
     "type": "wordpress-plugin",
     "license": "GPL-2.0-or-later",
     "authors": [
