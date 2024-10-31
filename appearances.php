@@ -22,7 +22,7 @@ function register_podcast_post_type() {
 		'podcast',
 		array(
 			'label'        => __( 'Podcast', 'appearances' ),
-			'description'  => __( '<p>2008 riefen Sebastian Küpers, Christian Scholz und ich den OpenWeb Podcast ins leben. Bis 2011 entstanden 33 Folgen zu Themen wie OpenID, OAuth und Microformats. 2012 haben wir uns entschieden den Podcast einzustellen und uns, für zwei Folgen, der Technikwürze anzuschließen.</p><p>Seit Februar 2019 bin ich Gast bei Marcel Weiß‘ „Hier und Jetzt“ Podcast. In regelmäßig unregelmäßigen Abständen (wahrscheinlich monatlich) werden wir über das Thema „Open Web“ sprechen.</p>', 'appearances' ),
+			'description'  => __( "Voices in my ear, \nstories weave through quiet hours, \nworlds unfold unseen.", 'appearances' ),
 			'public'       => true,
 			'supports'     => array(
 				'title',
@@ -71,7 +71,7 @@ function register_publication_post_type() {
 		'publication',
 		array(
 			'label'        => __( 'Publication', 'appearances' ),
-			'description'  => __( 'Von der zweiten Ausgabe des SCREENGUIDE (vorher Webstandards) Magazins, bis Juni 2018 habe ich in meiner Kolumne „Pfefferles OpenWeb“, einmal im Quartal, die aktuellen Entwicklungen des „Open Webs“ zusammengefasst. In diesen 10 Jahren sind 36 Artikel über OpenID, Microformats, DataPortability und das IndieWeb zusammen gekommen. Darüber hinaus habe ich auch mehrere Artikel für die t3n, das PC-Magazin und die SCREENGUIDE (bzw. das Webstandards-Magazin) geschrieben.', 'appearances' ),
+			'description'  => __( "Words on paper breathe, \nthoughts set free to wander far, \nsilent voices speak.", 'appearances' ),
 			'public'       => true,
 			'supports'     => array(
 				'title',
@@ -120,7 +120,7 @@ function register_speaking_post_type() {
 		'speaking',
 		array(
 			'label'        => __( 'Speaking', 'appearances' ),
-			'description'  => __( 'Ich halte Vorträge auf BarCamps, Webmontagen, (WordPress) Meetups oder WordCamps, meistens zu den Themen Microformats, OpenID, IndieWeb oder WordPress.', 'appearances' ),
+			'description'  => __( "Words drift into air, \nbridging minds with fleeting sound, \nechoes linger near.", 'appearances' ),
 			'public'       => true,
 			'supports'     => array(
 				'title',
